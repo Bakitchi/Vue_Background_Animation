@@ -185,8 +185,8 @@ class ShaderProgram {
 
     canvas.width = width * dpi;
     canvas.height = height * dpi;
-    canvas.style.width = width + "px";
-    canvas.style.height = height + "px";
+    canvas.style.width = 100 + "%";
+    canvas.style.height = 100 + "%";
 
     gl.viewport(0, 0, width * dpi, height * dpi);
     gl.clearColor(0, 0, 0, 0);
